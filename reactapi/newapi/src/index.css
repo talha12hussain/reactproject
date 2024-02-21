@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+
+    .container{
+        @apply w-[80%]  mx-auto items-center
+    }
+    .navbar
+    {
+        @apply flex justify-between py-4 
+    }
+    .head1{
+        @apply  text-[19px] text-sky-400 pt-10 
+    }
+    .menu{
+        @apply grid grid-cols-1 lg:grid-cols-2 pt-10
+    }
+    .para
+    {
+        @apply w-[90%] text-[19px]  text-white
+    }
+    ::selection {
+        @apply bg-cyan-600;
+      }
+
+   
+    
+ }
